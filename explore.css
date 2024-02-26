@@ -1,0 +1,90 @@
+@import url(style.css);
+
+
+
+/* body for Homepage */
+main{
+    min-height: 100vh;
+    width: 100%;
+    background-color:  #E6D6B5;
+    margin-top: 115px;
+    position: relative;
+}
+h2{
+    margin: 100px auto;
+    text-align: center;
+}
+.container{
+    display: flex;
+    column-gap: 10px;
+    max-width: 90%;
+    margin: 0 5% 5% 5%;
+    margin-top: 40px;
+    background-color: #633242;
+    box-shadow: 2px 3px 10px #00000080;
+    transition: 1s;
+    text-decoration: none;
+    cursor: pointer;
+}
+.container:hover{
+    scale: 1.04;
+}
+.box-1, 
+.box-2{
+    flex: 2;
+    height: 600px;
+    width: 300px;
+    background-color: #008f7c;
+}
+.box-1 p{
+    padding: 18px;
+    color: #000000;
+    font-weight: 500px;
+    font-size: 18px;
+}
+.box-2{
+    flex: 1;
+    width: 95%;
+    background-color: #a87902;
+}
+.box-2 img{
+    height: 100%;
+    width: 100%;
+}
+.container h3{
+    margin-top: 10px;
+    text-align: center;
+    color: #a87902;
+    text-shadow: 2px 2px 4px #000;
+}
+
+@media (max-width: 970px) {
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 15%; 
+        margin-right: 15%; 
+    }
+    .box-1,
+    .box-2 {
+        width: 100%; 
+    }
+    .box-1 p {
+        padding: 10px;
+        font-size: 16px; 
+    }
+}
+@media (max-width: 600px) {
+    h2{
+        font-size: 30px;
+    }
+    .container {
+        margin-left: 5%; 
+        margin-right: 5%; 
+    }
+    .box-1 h3{
+        font-size: 22px;
+    }
+}
+
+

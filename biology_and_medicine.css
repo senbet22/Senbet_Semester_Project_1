@@ -1,0 +1,39 @@
+@import url(style.css);
+
+/* Main body */
+main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(4, 27, 0, 0.493), rgba(0, 0, 0, 0.849)), url(images/biology-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    flex-direction: column;
+    margin-top: 115px;
+}
+
+h2{
+    text-align: center;
+    margin: 60px 0;
+    color: #c07401;
+}
+h3{
+    color: black;
+}
+.container{
+    margin: auto;
+    background-color: #DFDFDF;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+
+}
+.container img{
+    height: 200px;
+    
+}
+.container p{
+    font-size: 18px;
+}
+

@@ -1,0 +1,78 @@
+@import url(style.css);
+
+
+
+/* body for Homepage */
+main{
+    height: 100vh;
+    width: 100%;
+    background-color:  #E6D6B5;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-top: 115px;
+    position: relative;
+}
+.getInvolved{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.col{
+    flex-basis: 40%;
+    text-align: left;
+    margin: 40px 0px;
+}
+
+.col h2{
+    text-align: center;
+    margin: 40px 0;
+    color: #4B6B8B;
+}
+.col h3{
+    margin: 0px;
+    text-align: center; 
+}
+.col p{
+    padding: 20px;
+    font-weight: 600;
+    max-width: 800px;
+    width: auto;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+}
+
+.col{
+    margin: 30px 0;
+    max-width: 800px;
+}
+span{
+    font-weight: 700;
+    color: #4B6B8B;;
+    
+}
+
+/*Media queries*/
+@media (max-width: 900px) {
+    .visit{
+        text-align: left;
+    }
+    .col h2{
+        font-size: 30px;
+    }
+    .col p{
+        font-size: 16px;
+    }
+    .col h3{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width: 600px) {
+    .col h2{
+        font-size: 24px;
+    }
+    
+}
